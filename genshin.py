@@ -16,5 +16,5 @@ st.subheader("Genshin Dashboard")
 
 st.write(filtered_data)
 
-st.bar_chart(DF)
+st.bar_chart(DF["hp_1_20"])
 # D:\DataScience\genshin.py
