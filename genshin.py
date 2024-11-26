@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-genshin = pd.read_csv("DataSciPractice3/genshin.csv",encoding='ISO-8859-1')
+genshin = pd.read_csv("genshin.csv",encoding='ISO-8859-1')
 
 st.title("Genshin Impact Data Analysis")
 
